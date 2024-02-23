@@ -1,0 +1,146 @@
+header {
+  background-color: rgba(244, 42, 20, 0.678);
+}
+
+.caja {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+
+.productosa {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.productosa li {
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.25%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px #000 solid;
+  border-radius: 10px;
+}
+
+.productosa li:hover {
+  border-color: cornflowerblue;
+}
+.productosa li:hover h2 {
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.productosa li:active {
+  border-color: rgb(38, 194, 32);
+}
+
+.productosa h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.productoDescripcion {
+  font-size: 18px;
+}
+.productoPrecio {
+  font-size: 30px;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  background: url(imagenes/bg.jpg);
+  padding: 40px;
+}
+
+.copyright {
+  font-size: 13px;
+  color: #ffff;
+  padding: 20px;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label,
+form legend {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padron {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  transition: 1s background;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background: darkorange;
+  transform: scale(1.2);
+}
+
+table {
+  margin: 40px 40px;
+}
+
+thead {
+  background-color: #555555;
+  font-weight: bold;
+  color: white;
+}
+
+th,
+td {
+  border: 1px solid #000000;
+  padding: 8px 15px;
+}
